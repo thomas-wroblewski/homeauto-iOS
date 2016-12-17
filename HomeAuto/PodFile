@@ -1,0 +1,13 @@
+# Podfile
+platform :ios, '8.0'
+xcodeproj '../homeauto.xcodeproj'
+source "https://github.com/CocoaPods/Old-Specs"
+
+#source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+
+target 'HomeAuto' do
+  pod 'SwiftyJSON'
+  pod 'ObjectMapper', '~> 2.2'
+end
