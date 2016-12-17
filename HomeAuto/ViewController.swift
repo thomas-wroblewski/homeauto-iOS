@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         self.status.startAnimating()
         retrieveOutlets()
         
-        _ = Timer.scheduledTimer(timeInterval: 15.0, target: self, selector: #selector(ViewController.retrieveOutlets), userInfo: nil, repeats: true)
+        _ = Timer.scheduledTimer(timeInterval: 60.0, target: self, selector: #selector(ViewController.retrieveOutlets), userInfo: nil, repeats: true)
         
         super.viewDidLoad()
         
